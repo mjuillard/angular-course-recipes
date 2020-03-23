@@ -14,7 +14,7 @@ export class RecipeService {
     new Recipe(
       'A test recipe',
       'A first recipe desc',
-      'https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/easy-chicken-fajitas.jpg',
+      'xxxxx.jpg',
       [
         new Ingredient('Meat', 1),
         new Ingredient('French fries', 20)
@@ -23,7 +23,7 @@ export class RecipeService {
     new Recipe(
       'Another test recipe',
       'desc of a birger recipe',
-      'https://assets.epicurious.com/photos/5d49f1ea888da200097dce24/6:4/w_620%2Ch_413/TomatoesHerbs_RECIPE_073119_278.jpg',
+      'xxxxx.jpg',
       [
         new Ingredient('Buns', 2),
         new Ingredient('Meat', 1)
