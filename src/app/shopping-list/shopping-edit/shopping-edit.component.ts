@@ -13,7 +13,7 @@ export class ShoppingEditComponent implements OnInit, OnDestroy {
 
   // @ViewChild('nameInput', { static: false }) nameInputRef: ElementRef;
   // @ViewChild('amountInput', { static: false }) amountInputRef: ElementRef;
-  @ViewChild('f', { static: false }) slForm: NgForm;
+  @ViewChild('f') slForm: NgForm;
   subscription: Subscription;
   editMode = false;
   editedItemIndex: number;
